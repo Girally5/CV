@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 222, 222);
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: rgba(248, 166, 111, 0.89);
+    transform: skewY(-5deg);
+}
+
+.content{
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    position: absolute;
+}
+
+.p-1{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: 60px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.p-2{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    transform: skewY(5deg);
+    margin-top: 10;
+    margin-bottom: 0;
+}
+
+.img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.img img{
+    width: 180px;
+    height: 240px;
+
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background:  rgba(248, 166, 111, 0.89);
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.tituloSeccion{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px white solid;
+    font-size: xx-large
+}
+
+.tituloInfo{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoInfo{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tituloDireccion{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.infoDireccion{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tituloTele{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoTele{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tiuloEmail{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoEmail{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tituloFecha{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoFecha{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tituloCedula{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoCedula{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Experiencia{
+    width: 90%;
+    height: auto;
+    background:  rgba(248, 166, 111, 0.89);
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tituloLaboral{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px white dashed;
+    font-size: xx-large
+}
+
+.titulo1{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoLaboral{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.titulo2{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoLaboral2{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Educacion{
+    width: 90%;
+    height: auto;
+    background:  rgba(248, 166, 111, 0.89);
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tituloEducacion{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px white dashed;
+    font-size: xx-large
+}
+
+.tituloEdu{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoEdu{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tutiloUni{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoUni{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.tituloIFAP{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoIFAP{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Pasatiempo{
+    width: 90%;
+    height: auto;
+    background:  rgba(248, 166, 111, 0.89);
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tituloPasatiempo{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px white dashed;
+    font-size: xx-large
+}
+
+.tituloPas{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoPas{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    
+}
+
+.Lenguas{
+    width: 90%;
+    height: auto;
+    background:  rgba(248, 166, 111, 0.89);
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tituloLe{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px white dashed;
+    font-size: xx-large
+}
+
+.tituloLen{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoLen{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.TituloLen1{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.infoLen1{
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+
+
